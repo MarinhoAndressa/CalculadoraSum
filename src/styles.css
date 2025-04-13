@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+input, label, select{
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+input{
+  background-color: rgb(125, 232, 139);
+}
+select{
+  background-color: rgb(193, 107, 217);
+}
+body{
+  background-color: rgb(197, 240, 245);
+  background-image: url("https://icon-icons.com/icon/calculator/34473")
+  
+}
